@@ -232,7 +232,7 @@
 
         // ⚠️ Format koordinat MapLibre: [lon, lat] (bukan [lat, lon])
         // const latlong = [103.79293649717077, 1.291233669355683];
-        const latlong = [106.82751358132005, -6.180677475119887];
+        const latlong = [106.78317895374887, -6.242760119822274];
 
         // Elemen UI
         const resultsDiv = document.getElementById('results');
