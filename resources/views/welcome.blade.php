@@ -286,7 +286,7 @@
             window.mapReady = true; // tandai peta siap dipakai
             searchInput.addEventListener('input', () => {
                 // Fungsi ini akan terus memanggil searchPlaceSuggestions saat pengguna mengetik
-                searchPlaceSuggestions(searchInput.value);
+                searchGeocode(searchInput.value);
             });
 
             // Menambahkan event listener untuk mendeteksi tombol Enter
