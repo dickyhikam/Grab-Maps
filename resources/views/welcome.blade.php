@@ -76,6 +76,13 @@
             box-sizing: border-box;
         }
 
+        .sidebar-search textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
         .sidebar-search button {
             width: 100%;
             padding: 10px;
@@ -158,8 +165,8 @@
         <div class="sidebar">
             <!-- Kolom Pencarian -->
             <div class="sidebar-search">
-                <h5>Search Location</h5>
-                <input type="text" id="searchIHTML" placeholder="Enter place/address">
+                <h5>Enter your address</h5>
+                <textarea type="text" id="searchIHTML" placeholder="Enter address"></textarea>
                 <small>Press Enter to search</small>
                 <!-- Spinner loading -->
                 <div id="loading" style="display: none;">
